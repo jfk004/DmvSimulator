@@ -9,7 +9,7 @@ public class DmvSimulator {
 
         Random random = new Random();
 
-        int userNumber = random.nextInt(100) + 1;
+        int userNumber = random.nextInt(200) + 1;
 
         System.out.println("Your Number is: " + userNumber);
 
