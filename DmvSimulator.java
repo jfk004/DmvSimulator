@@ -15,11 +15,11 @@ public class DmvSimulator {
 
         System.out.println("Calling Out:");
 
-        for (int i = 1; i <= 100; i++) {
-            int currentNumber = (userNumber + i) % 100;
+        for (int i = 1; i <= 200; i++) {
+            int currentNumber = (userNumber + i) % 200;
             
             if(currentNumber == 0 ){
-                currentNumber = 100;
+                currentNumber = 200;
             }
 
             System.out.println("Number:" + currentNumber);
