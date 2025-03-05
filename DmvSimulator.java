@@ -29,7 +29,7 @@ public class DmvSimulator {
 
         //Determine the massage to display
         if(random.nextInt(100) < 99){
-        System.out.println("Sorry you don't have the required paperwork.  Get to the back of the line.");
+        System.out.println("Sorry you don't have the required paperwork.  Get to the back of the line. HAHAHAHAHAHAHHAHAHAHAHHAHAHAHAH!!!!!!!");
 
         } else {
             System.out.println("You have all the required paperwork. You are all set!");
